@@ -1,0 +1,94 @@
+/*Het begint met de indeling voor een mobiele telefoon 360x640*/
+body {
+    width: 360px;
+    font-family: Tahoma, Verdana, Geneva, sans-serif; 
+    font-size: larger;  
+}
+
+main {
+    margin: 10px; 
+    border: 7.5px ridge bisque ;
+}
+
+header {
+    max-width: 90%;
+    margin: 10px;
+}
+
+h1{ 
+    padding: 0px 5px 2px;  
+    border: 5px black  outset;
+    font-size: 12px;
+}
+
+p {
+    margin: 0px 15px;
+    line-height: 1.0;              
+}
+
+li > a {
+    text-decoration: none;    
+}
+
+.opvallend {color: red;
+}
+
+#EersteSectie{ 
+    margin-bottom: 5px;
+}
+
+.TussenSectie{
+    margin: 20px 0px 20px;    
+}
+
+.AutoMargin {
+    width: 200px;
+    margin: 0 auto;
+}
+
+#LaatsteSectie {
+    margin-top: 5px;
+    background-color:lightcyan;     
+    border:5px solid greenyellow;
+    border-radius: 5px;
+}
+
+img {
+    width: 325px;   
+}
+
+figcaption {    
+    text-align: center;    
+    margin: 5px ;            
+}
+
+@media screen and (min-width: 720px) {
+    body {
+        width: 800px;
+        font-size:x-large
+    }
+
+    main { 
+        background-color:lightcyan;
+    }
+
+    p {
+        line-height: 1.2;
+    }
+    #LaatsteSectie {
+        background-color:beige;
+        border: 5px solid darkseagreen
+    }
+
+    h1{ 
+        padding: 0px 5px;   
+        font-size: 16px
+    }
+    h1:hover { 
+        background-color: black;
+        color: white
+    }
+
+    img {width: 100%;
+    }   
+}
